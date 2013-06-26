@@ -1,8 +1,6 @@
-<% title "Edit Category" %>
+<h1>Editing category</h1>
 
-<%= render :partial => 'form' %>
+<%= render 'form' %>
 
-<p>
-  <%= link_to "Show", @category %> |
-  <%= link_to "View All", categories_path %>
-</p>
+<%= link_to 'Show', @category %> |
+<%= link_to 'Back', categories_path %>
